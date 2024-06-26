@@ -1,0 +1,83 @@
+.header{
+    height: 8vh;
+    width: 100%;
+    background-color: var(--branco-escuro) ;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-container{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--fonte-montserrat);
+    color: var(--cinza-escuro);
+}
+
+.header-logo-container{
+    display: flex;
+    height: 8vh;
+    width: 30%;
+    align-items: center;
+    justify-content: left;
+    
+
+}
+
+.header-logo-container img{
+    height: 5rem;
+    width: auto;
+}
+
+.header-button-container{
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+}
+
+.header-button{
+    border-radius: 20px;
+    width: auto;
+    height: 50%;
+    border: solid 2px var(--dourado);
+    background-color: transparent;
+    margin-right: 4rem;
+    width: 10rem;
+    color: var(--dourado);
+    transition: 0.7s ease;
+    
+
+}
+
+.header-button:hover{
+    background-color: var(--dourado);
+    color: var(--branco-escuro);
+    transition: 0.7s ease;
+
+}
+
+.header-button a{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+

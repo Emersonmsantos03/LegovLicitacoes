@@ -46,3 +46,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+:root{
+	--branco-escuro: #f6f6f6;
+	--dourado: #F4AA17;
+	--preto: #171414;
+	--cinza-escuro: #333;
+	--cinza-claro: #404040;
+	--fonte-mukta: "Mukta Mahee", sans-serif;
+	--fonte-montserrat: "Montserrat", sans-serif;
+	--fonte-inter: "Inter", sans-serif;
+
+
+
+}
