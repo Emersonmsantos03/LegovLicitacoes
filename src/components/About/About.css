@@ -1,0 +1,111 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+    height: 100vh;
+    width: 100%;
+    align-items: start;
+    justify-content: end;
+    
+}
+
+.about-container{
+    width: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.about-container-title{
+    height: 20%;
+    width: 100%;
+    justify-content: start;
+    margin-bottom: 9rem;
+    display: flex;
+    align-items: start;
+
+    
+}
+
+.about-container-title h1{
+    font-family: var(--fonte-inter);
+    color: var(--branco-escuro);
+    font-size: 80px;
+    font-weight: 800;
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+    margin-left: 2rem;
+    
+}
+
+.about-container-title strong{
+    color: var(--dourado);
+}
+
+.about-container-infos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-container-infos-texts{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color: var(--branco-escuro);
+    font-family: var(--fonte-inter);
+    font-weight: 300;
+    font-size: 24px;
+    text-align: start;
+    margin-left: 7rem;
+    
+}
+.about-container-infos-texts p{
+    width: 70%;
+}
+
+
+.about-container-infos-image{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-container-infos-image img{
+    height: 450px;
+    border-radius: 10px;
+}
+
+.about-container-button{
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    align-items: start;
+    justify-content: start;
+}
+.about-container-button button{
+    border-radius: 30px;
+    height: 59px;
+    border: solid 2px var(--dourado);
+    background-color: var(--dourado);
+    margin-right: 4rem;
+    width: 350px;
+    color: var(--branco-escuro);
+    transition: 0.7s ease;
+    margin-top: 1rem;
+    font-size: 35px;
+    font-family: var(--fonte-mukta);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7rem;
+}
