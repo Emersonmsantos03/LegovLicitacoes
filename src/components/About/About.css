@@ -10,13 +10,13 @@
 }
 
 .about-container{
-    width: 90vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: end;
-    width: 100%;
     margin-bottom: 3rem;
+    
 }
 
 .about-container-title{
@@ -26,6 +26,7 @@
     margin-bottom: 9rem;
     display: flex;
     align-items: start;
+    
 
     
 }
@@ -33,12 +34,13 @@
 .about-container-title h1{
     font-family: var(--fonte-inter);
     color: var(--branco-escuro);
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
     display: flex;
     width: 100%;
     gap: 1.5rem;
-    margin-left: 2rem;
+    margin-left: 7rem;
+    
     
 }
 
@@ -61,18 +63,19 @@
     color: var(--branco-escuro);
     font-family: var(--fonte-inter);
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
     text-align: start;
-    margin-left: 7rem;
+    height: 100%;
     
 }
 .about-container-infos-texts p{
     width: 70%;
+    
 }
 
 
 .about-container-infos-image{
-    width: 48%;
+    width: 38%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +83,7 @@
 }
 
 .about-container-infos-image img{
-    height: 450px;
+    height: 400px;
     border-radius: 10px;
 }
 
@@ -90,22 +93,27 @@
     width: 100%;
     align-items: start;
     justify-content: start;
+  
 }
 .about-container-button button{
     border-radius: 30px;
-    height: 59px;
+    height: 49px;
     border: solid 2px var(--dourado);
     background-color: var(--dourado);
     margin-right: 4rem;
-    width: 350px;
+    width: 270px;
     color: var(--branco-escuro);
     transition: 0.7s ease;
-    margin-top: 1rem;
-    font-size: 35px;
+    font-size: 30px;
     font-family: var(--fonte-mukta);
     font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 7rem;
+}
+.about-container-button button:hover{
+    margin-top: 0.5rem;
+
+
 }

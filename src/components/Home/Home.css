@@ -23,19 +23,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 22rem;
+    margin-top: 15rem;
 }
 
 .home-itens-title{
     text-align: center;
-    width: 64%;
+    width: 45%;
 
 }
 
 .home-itens-title-text{
     font-family: var(--fonte-inter);
     color: var(--branco-escuro);
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 700;
     
 }
@@ -48,9 +48,9 @@
 .home-itens-subtitle{
     font-family: var(--fonte-inter);
     color: var(--branco-escuro);
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 500;
-    height: 5rem;
+    height: 3rem;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -65,7 +65,7 @@
 }
 
 .home-itens-logos a img{
-    height: 35px;
+    height: 25px;
     width: auto;
 
 }
@@ -73,16 +73,16 @@
 .home-itens-button{
     width: auto;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     height: 20vh;
 }
 
 .home-itens-button button{
     border-radius: 30px;
-    width: 20rem;
+    width: 22rem;
     height: 50px;
-    border: solid 3px var(--dourado);
+    border: solid 2.5px var(--dourado);
     background-color: transparent;
     color: var(--dourado);
     transition: 0.7s ease;
@@ -92,15 +92,16 @@
 
 .home-itens-button a{   
 
-    font-size: 35px;
+    font-size: 30px;
     font-family: var(--fonte-montserrat);
     color: var(--branco-escuro);
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
 .home-itens-button button:hover{
     background-color: var(--dourado);
     transition: 0.7s ease;
+    margin-bottom: 1rem;
 
 }
