@@ -1,3 +1,4 @@
+import Cards from './Cards'
 import './Soluctions.css'
 
 let Soluctions = () =>{
@@ -5,11 +6,11 @@ let Soluctions = () =>{
 
         <section className='soluctions'> 
             <div className='soluctions-container'>
-                <div className='ojectives'>
-                    <div className='objetives-title'></div>
-                    <div className='objetives-cards'></div>
+                <div className='soluctions-objectives'>
+                    <div className='objectives-title'><h2>Nossos objetivos:</h2></div>
+                    <div className='objectives-cards'><Cards /></div>
                 </div>
-                <div className='soluctions'></div>
+                <div className='soluctions-leafs'></div>
 
             </div>
              </section>

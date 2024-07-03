@@ -1,5 +1,5 @@
 import './Header.css'
-import logo from '../../../../public/images/logo-black.png'
+import logo from '../../../../public/images/legov-white-icon.png'
 
 let Header = () => {
     return(

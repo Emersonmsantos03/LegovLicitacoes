@@ -1,7 +1,7 @@
 .header{
     height: 8vh;
     width: 100%;
-    background-color: var(--branco-escuro) ;
+    background-color: transparent ;
     display: flex;
     flex-direction: row;
 }
@@ -21,10 +21,10 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     font-family: var(--fonte-montserrat);
-    color: var(--cinza-escuro);
+    color: var(--branco-escuro);
     transition: 0.5s ease;
     
 }
@@ -46,8 +46,9 @@
 }
 
 .header-logo-container img{
-    height: 5rem;
+    height: 6rem;
     width: auto;
+    margin-top: 1rem;
 }
 
 .header-button-container{
