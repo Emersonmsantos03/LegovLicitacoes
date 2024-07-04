@@ -1,0 +1,29 @@
+.partners{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../public/images/Desktop\ -\ Clientes.png);
+    background-color: black;
+}
+
+.partners-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.partners-container-title{
+    font-size: 60px;
+    font-family: var(--fonte-inter);
+    font-weight: 600;
+    color: var(--branco-escuro);
+    width: 50%;
+    text-align: center;
+
+}
+
+.partners-container-title strong{
+    color: var(--dourado);
+}
