@@ -1,0 +1,169 @@
+.cont{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../../../public/images/contact-image.png);
+    background-color: black;
+}
+
+.cont-container{
+    width: 100%;
+    height: 80vh;
+}
+
+.cont-container-title{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.title, .subtitle{
+    width: 50%;
+    height: 100%;
+    color: var(--branco-escuro);
+
+}
+
+.title{
+    font-family: var(--fonte-montserrat);
+    font-size: 70px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+
+
+}
+
+.title h1{
+    width: 80%;
+    text-align: right;
+}
+
+.title strong{
+    color: var(--dourado);
+}
+
+.subtitle{
+    display: flex;
+    font-size: 25px;
+    font-family: var(--fonte-inter);
+    text-align: left;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.subtitle h5{
+    width: 60%;
+    margin: 11rem 0 0 5rem;
+    
+}
+
+.subtitle button{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid var(--dourado);
+    font-family: var(--fonte-mukta);
+    font-size: 20px;
+    color: var(--branco-escuro);
+    font-weight: 500;
+    transition: 0.5s ease;
+    margin-left: 5rem;
+}
+
+.subtitle button:hover{
+background-color: var(--dourado);
+transition: 0.5s ease;
+
+}
+
+.conts{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--branco-escuro);
+    font-family: var(--fonte-inter);
+    margin-top: 15rem;
+
+}
+
+.conts strong{
+    color: var(--dourado);
+}
+
+.conts-contacts{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+.admin{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.admin-container{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    
+}
+
+.cont-nav{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-container-user{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.conts h3{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.conts h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.conts p, .conts a{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 1rem 0 0 0;
+}
+
+
+
+
+

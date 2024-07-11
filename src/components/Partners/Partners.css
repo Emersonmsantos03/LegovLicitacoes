@@ -1,6 +1,6 @@
 .partners{
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     background-image: url(../../../public/images/Desktop\ -\ Clientes.png);
     background-color: black;
 }
@@ -10,20 +10,85 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     flex-direction: column;
 }
 
 .partners-container-title{
-    font-size: 60px;
+    font-size: 50px;
     font-family: var(--fonte-inter);
-    font-weight: 600;
+    font-weight: 700;
     color: var(--branco-escuro);
-    width: 50%;
+    width: 40%;
     text-align: center;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
 
 }
 
 .partners-container-title strong{
     color: var(--dourado);
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 45vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.company-icon{
+    width: 285px;
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-icon img{
+    width: 250px;
+    transition: 0.5s ease;
+}
+
+.company-icon img:hover{
+    width: 270px;
+    height: auto;
+    transition: 0.5s ease;
+    
+}
+
+.partners-button{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.partners-button button{
+background-color: transparent;
+font-size: 28px;
+font-family: var(--fonte-mukta);
+color: var(--branco-escuro);
+font-weight: 600;
+border: var(--dourado) solid 2px;
+border-radius: 30px;
+width: 450px;
+height: 60px;
+transition: 0.5s ease;
+margin-bottom: 3rem;
+
+
+}
+
+
+.partners-button button:hover{
+background-color: var(--dourado);
+transition: 0.5s ease;
+
 }

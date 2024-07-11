@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: #1E1E1E;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     align-items: start;
     justify-content: end;
@@ -34,7 +34,7 @@
 .about-container-title h1{
     font-family: var(--fonte-inter);
     color: var(--branco-escuro);
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 800;
     display: flex;
     width: 100%;
