@@ -112,10 +112,10 @@
 
     .home {
         width: 100%;
-        height: 100vh;
-        background-image: url(../../../public/images/background-licita.png);
-        background-repeat: none;
-        background-size: cover;
+        height: 100vh;      
+        
+    
+        
         border: none;
     }
     
@@ -123,9 +123,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 90vh;
+        height: 100vh;
         width: 100%;
         flex-direction: column;
+        background-image: url(../../../public/images/background-licita.png);
+        background-position: 100%;
     }
     
     .home-itens-container {
@@ -135,6 +137,7 @@
         align-items: center;
         flex-direction: column;
         margin-top: 15rem;
+        
     }
     
     .home-itens-title {

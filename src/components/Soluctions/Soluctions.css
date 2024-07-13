@@ -1,7 +1,7 @@
 .soluctions{
     height: 90vh;
     width: 100%;
-    background-color: var(--branco-escuro);
+    background-color: var(--cinza-escuro);
 }
 
 .soluctions-container{
@@ -15,7 +15,7 @@
 .soluctions-objectives{
     width: 40%;
     height: 90vh;
-    background-color: #1E1E1E;
+    background-color: var(--cinza-escuro);
     gap: 3rem;
     
 }
@@ -51,6 +51,7 @@ margin-top: 3rem;
     height: 90vh;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -97,13 +98,14 @@ margin-top: 3rem;
     align-items: center;
     justify-content: center;
     gap: 0.2rem;
+    border: none;
     
     
 }
 
 .soluctions-tree-leaf button:hover{
     transition: 0.5s ease;
-    background-color: var(--cinza-escuro);
+    background-color: #1E1E1E;
     border: none;
 }
 
@@ -117,7 +119,7 @@ margin-top: 3rem;
 font-family: var(--fonte-montserrat);
 width: 19px;
 font-weight: 500;
-color: black;
+color: var(--branco-escuro);
 width: 190%;
 
 
@@ -238,8 +240,8 @@ width: 190%;
      display: flex;
      justify-content: center;
      align-items: center;
-     width: 400px;
-     margin: 2rem 0 0 110px;
+     width: 100%;
+     margin: 1rem 0 0 120px;
      color: var(--branco-escuro);
      
      
@@ -251,8 +253,20 @@ width: 190%;
       justify-content: center;
       align-items: center;
       text-align: center;
+      width: 100%;
       
       
+      
+      
+      
+    }
+
+    .tree-text p{
+        width: 100%;
+        
+
+        
+        
     }
   }
   
