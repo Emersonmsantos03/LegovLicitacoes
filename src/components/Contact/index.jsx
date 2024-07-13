@@ -1,4 +1,5 @@
 import './Contact.css'
+import { motion } from 'framer-motion';
 
 let Contact = () =>{
 
@@ -8,14 +9,41 @@ let Contact = () =>{
             <div className='cont-container'>
         
                    <div className='cont-container-title'> 
+                   <motion.div
+            initial={{ y: 200, x: 200, opacity: 0 }}
+            whileInView={{ y: 100, x: 200, opacity: 1 }}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ duration: 1 }}
+          > 
                     <div className='title'><h1>Seja um de nossos <strong>clientes</strong></h1></div>
-                    <div className='subtitle'><h5>Descubra como nossos especialistas 
+                    </motion.div>
+
+                    
+                    
+                    <div className='subtitle'>
+                    <motion.div
+                    
+                    initial={{ y: 0, x: -50, opacity: 0 }}
+                    whileInView={{ y: 0, x: 0, opacity: 1 }}
+                    viewport={{ once: true, amount: 1 }}
+                    transition={{ duration: 1 }}>
+                        <h5>Descubra como nossos especialistas 
                         podem aumentar suas chances de sucesso em licitações e conquistar novos contratos.</h5>
+                        </motion.div>
+                        <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{opacity: 1 }}
+                        viewport={{ once: true, amount: 1 }}
+                        transition={{ duration: 3 }}
+          > 
                         <button>Saiba mais!</button>
+                        </motion.div>
+
                         </div>
                    </div>
 
                    <div className='conts'>
+                  
                     <div className='conts-contacts'>
                         <h3>Nossos contatos:</h3>
                         <p>@legov.licita</p>
@@ -54,6 +82,7 @@ let Contact = () =>{
                             <a>Soluçções</a>
 
                         </div>
+                        
                    </div>
 
 

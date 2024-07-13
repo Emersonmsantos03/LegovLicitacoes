@@ -92,3 +92,89 @@ background-color: var(--dourado);
 transition: 0.5s ease;
 
 }
+
+
+@media (max-width: 768px) {
+    .partners {
+      width: 100%;
+      height: auto;
+      background-image: url(../../../public/images/Desktop\ -\ Clientes.png);
+      background-color: black;
+      background-position: -30rem;
+    
+    }
+  
+    .partners-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+  
+    .partners-container-title {
+      font-size: 30px;
+      font-family: var(--fonte-inter);
+      font-weight: 700;
+      color: var(--branco-escuro);
+      width: 100%;
+      text-align: center;
+      margin-bottom: 3rem;
+      margin-top: 3rem;
+    }
+  
+    .partners-container-title strong {
+      color: var(--dourado);
+    }
+  
+    .icon-container {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .company-icon {
+      width: 100%;
+      max-width: 150px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .company-icon img {
+      width: 100%;
+      max-width: 150px;
+      transition: 0.5s ease;
+    }
+  
+    .partners-button {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+  
+    .partners-button button {
+      background-color: var(--dourado);
+      font-size: 20px;
+      font-family: var(--fonte-mukta);
+      color: var(--branco-escuro);
+      font-weight: 600;
+      border: var(--dourado) solid 2px;
+      border-radius: 30px;
+      width: 100%;
+      max-width: 300px;
+      height: 50px;
+      transition: 0.5s ease;
+      margin-bottom: 2rem;
+    }
+  }

@@ -15,7 +15,7 @@
 .soluctions-objectives{
     width: 40%;
     height: 90vh;
-    background-color: var(--cinza-escuro);
+    background-color: #1E1E1E;
     gap: 3rem;
     
 }
@@ -55,7 +55,7 @@ margin-top: 3rem;
 }
 
 .soluctions-tree-line{
-    background-color: var(--cinza-escuro);
+    background-color: var(--dourado);
     width: 2px;
     height: 70vh;
     border-radius: 30px;
@@ -85,18 +85,19 @@ margin-top: 3rem;
     border-radius: 30px;
     border: var(--branco-escuro) solid 2px;
     width: 20rem;
-    height: 3rem;
+    height: 3.3rem;
     background-color: var(--dourado);
     font-family: var(--fonte-inter);
-    font-size: 21px;
+    font-size: 22px;
     color: var(--branco-escuro);
-    font-family: 500;
+    font-weight: 600;
     transition: 0.5s ease;
     display: flex;
     flex-direction: center;
     align-items: center;
     justify-content: center;
     gap: 0.2rem;
+    
     
 }
 
@@ -114,8 +115,8 @@ margin-top: 3rem;
 
 .soluctions-tree-leaf p{
 font-family: var(--fonte-montserrat);
-width: 17px;
-font-weight: 400;
+width: 19px;
+font-weight: 500;
 color: black;
 width: 190%;
 
@@ -125,7 +126,133 @@ width: 190%;
 
 
 .soluctions-tree-left {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: auto;
 }
 
+
+
+@media (max-width: 768px) {
+    .soluctions {
+      height: auto;
+      background-color: var(--branco-escuro);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+    }
+  
+    .soluctions-container {
+      flex-direction: column;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+    }
+  
+    .soluctions-objectives {
+      width: 100%;
+      height: 90vh;
+      gap: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .objectives-title {
+      font-size: 28px;
+      margin-top: 2rem;
+      height: auto;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .objectives-cards {
+      height: auto;
+      gap: 2rem;
+      flex-direction: column;
+      
+    }
+  
+    .soluctions-tree {
+      width: 100%;
+      height: 150vh;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background-color: #1E1E1E;
+    }
+  
+    .soluctions-tree-line {
+      height: 0px;
+      width: 70vw;
+      background-color: var(--dourado);
+    }
+  
+    .soluctions-tree-left, .soluctions-tree-right {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+  
+    .soluctions-tree-leaf {
+      width: 100%;
+      height: 15rem;
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+  
+    .soluctions-tree-leaf button {
+      width: 70%;
+      
+      height: 3rem;
+      border-radius: 30px;
+    border: none;
+      background-color: var(--dourado);
+      font-family: var(--fonte-inter);
+      font-size: 22px;
+      color: var(--branco-escuro);
+      font-weight: 600;
+      
+    }
+
+    .soluctions-tree-leaf button:hover {
+        background-color: var(--dourado);
+
+    }
+  
+    .soluctions-tree-leaf p {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 400px;
+     margin: 2rem 0 0 110px;
+     color: var(--branco-escuro);
+     
+     
+      
+    }
+  
+    .tree-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      
+      
+    }
+  }
+  
