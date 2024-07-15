@@ -127,7 +127,7 @@
         width: 100%;
         flex-direction: column;
         background-image: url(../../../public/images/background-licita.png);
-        background-position: 100%;
+        background-position: 100% 10%;
     }
     
     .home-itens-container {
