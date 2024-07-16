@@ -3,7 +3,7 @@ import about from '../../../public/images/about-image.png'
 
 let About = () => {
     return(
-        <section className='about'>   
+        <section className='about' id='about'>   
             <div className='about-container'>
                 <div className='about-container-title'><h1>Conheça a <strong>Legov Licitações</strong></h1></div>
                 <div className='about-container-infos'>

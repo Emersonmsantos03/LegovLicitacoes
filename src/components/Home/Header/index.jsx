@@ -9,14 +9,14 @@ let Header = () => {
             </div>
             <div className='nav-container'>
                 <ul className='nav'>
-                    <li><a>Início</a></li>
-                    <li><a>Sobre nós</a></li>
-                    <li><a>Soluções</a></li>
-                    <li><a>Parceiros</a></li>
+                    <li><a href="http://localhost:5173/">Início</a></li>
+                    <li><a href='#about'>Sobre nós</a></li>
+                    <li><a href='#soluctions'>Soluções</a></li>
+                    <li><a href='#partners'>Parceiros</a></li>
                 </ul>
             </div>
             <div className='header-button-container'>
-                <button className='header-button'><a>Contato</a></button>
+                <button className='header-button'><a href='#cont'>Contato</a></button>
             </div>
             
         </header>

@@ -47,6 +47,15 @@ table {
 	border-spacing: 0;
 }
 
+a{
+	text-decoration: none;
+	color: var(--branco-escuro);
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
 
 :root{
 	--branco-escuro: #f6f6f6;

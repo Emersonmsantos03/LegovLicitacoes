@@ -23,7 +23,7 @@ var company = [
 let Partners = () =>{
     return(
 
-        <section className='partners'>
+        <section className='partners' id='partners'>
             <div className='partners-container'>
                 <div className='partners-container-title'><h1>Empresas que acreditam em <strong>nosso potencial</strong></h1></div>
 

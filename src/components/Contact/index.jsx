@@ -5,7 +5,7 @@ let Contact = () =>{
 
 
     return(
-        <section className='cont'>
+        <section className='cont' id='cont'>
             <div className='cont-container'>
         
                    <div className='cont-container-title'> 
@@ -76,10 +76,10 @@ let Contact = () =>{
 
                         <div className='cont-nav'>
                             <h3>Navegação:</h3>
-                            <a>Início</a>
-                            <a>Sobre nós</a>
-                            <a>Vantagens</a>
-                            <a>Soluçções</a>
+                            <a href='http://localhost:5173/'>Início</a>
+                            <a href='#about'>Sobre nós</a>
+                            <a href='#soluctions'>Soluções</a>
+                            <a href='#partners'>Parceiros</a>
 
                         </div>
                         

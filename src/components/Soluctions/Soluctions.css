@@ -1,7 +1,8 @@
 .soluctions{
     height: 90vh;
     width: 100%;
-    background-color: var(--cinza-escuro);
+    background-color: #1E1E1E;
+    ;
 }
 
 .soluctions-container{
@@ -17,6 +18,7 @@
     height: 90vh;
     background-color: var(--cinza-escuro);
     gap: 3rem;
+    border-radius: 20px;
     
 }
 
@@ -83,7 +85,7 @@ margin-top: 3rem;
 }
 
 .soluctions-tree-leaf button{
-    border-radius: 30px;
+    border-radius: 10px;
     border: var(--branco-escuro) solid 2px;
     width: 20rem;
     height: 3.3rem;
@@ -105,7 +107,7 @@ margin-top: 3rem;
 
 .soluctions-tree-leaf button:hover{
     transition: 0.5s ease;
-    background-color: #1E1E1E;
+    background-color: var(--cinza-escuro);
     border: none;
 }
 
@@ -144,6 +146,7 @@ width: 190%;
       align-items: center;
       justify-content: center;
       border: none;
+      
     }
   
     .soluctions-container {
@@ -164,6 +167,7 @@ width: 190%;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      border-radius: 0;
     }
   
     .objectives-title {
@@ -222,7 +226,7 @@ width: 190%;
       width: 70%;
       
       height: 3rem;
-      border-radius: 30px;
+      border-radius: 10px;
     border: none;
       background-color: var(--dourado);
       font-family: var(--fonte-inter);

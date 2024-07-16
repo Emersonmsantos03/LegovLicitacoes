@@ -1,13 +1,13 @@
 .cont{
     width: 100%;
-    height: 90vh;
+    max-height: 90vh;
     background-image: url(../../../public/images/contact-image.png);
     background-color: black;
 }
 
 .cont-container{
     width: 100%;
-    height: 80vh;
+    max-height: 90vh;
 }
 
 .cont-container-title{
@@ -20,7 +20,7 @@
 }
 
 .title, .subtitle{
-    width: 50%;
+    
     height: 100%;
     color: var(--branco-escuro);
 
@@ -39,6 +39,10 @@
 
 
 }
+.subtitle{
+  width:40%;
+}
+
 
 .title h1{
     width: 100%;
@@ -65,7 +69,7 @@
 
 .subtitle h5{
     width: 60%;
-    margin: 13rem 0 0 5rem;
+    margin: 19rem 0 0 5rem;
     
 }
 
@@ -81,6 +85,7 @@
     font-weight: 500;
     transition: 0.5s ease;
     margin-left: 5rem;
+    margin-top: 1rem;
 }
 
 .subtitle button:hover{
@@ -93,12 +98,12 @@ transition: 0.5s ease;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 30vh;
+    min-height: 28vh;
     align-items: center;
     justify-content: space-around;
     color: var(--branco-escuro);
     font-family: var(--fonte-inter);
-    margin-top: 18rem;
+    margin-top: 15rem;
 
 }
 

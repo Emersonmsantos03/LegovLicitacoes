@@ -5,40 +5,34 @@ import arrow from '../../../public/images/down-arrow.png'; // Certifique-se do c
 import './Soluctions.css'; // Importe o CSS para manter os estilos originais
 
 const Soluctions = () => {
-  const [isVisibleLegal, setIsVisibleLegal] = useState(false);
-  const [isVisibleNegociacao, setIsVisibleNegociacao] = useState(false);
-  const [isVisibleTreinamento, setIsVisibleTreinamento] = useState(false);
-  const [isVisibleAnaliseViabilidade, setIsVisibleAnaliseViabilidade] = useState(false);
-  const [isVisibleTransparencia, setIsVisibleTransparencia] = useState(false);
+  const [isVisibleLegal, setIsVisibleLegal] = useState(true);
+  const [isVisibleNegociacao, setIsVisibleNegociacao] = useState(true);
+  const [isVisibleTreinamento, setIsVisibleTreinamento] = useState(true);
+  const [isVisibleAnaliseViabilidade, setIsVisibleAnaliseViabilidade] = useState(true);
+  const [isVisibleTransparencia, setIsVisibleTransparencia] = useState(true);
 
   const handleClickLegal = () => {
     setIsVisibleLegal(!isVisibleLegal);
-    
   };
 
   const handleClickNegociacao = () => {
     setIsVisibleNegociacao(!isVisibleNegociacao);
-   
   };
 
   const handleClickTransparencia = () => {
     setIsVisibleTransparencia(!isVisibleTransparencia);
-    
   };
-
 
   const handleClickTreinamento = () => {
     setIsVisibleTreinamento(!isVisibleTreinamento);
-    
   };
 
   const handleClickAnaliseViabilidade = () => {
     setIsVisibleAnaliseViabilidade(!isVisibleAnaliseViabilidade);
-    ;
   };
 
   return (
-    <section className='soluctions'>
+    <section className='soluctions' id='soluctions'>
       <div className='soluctions-container'>
         <div className='soluctions-objectives'>
           <div className='objectives-title'>
@@ -47,7 +41,7 @@ const Soluctions = () => {
           <motion.div
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true, amount: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 1 }}
           >
             <div className='objectives-cards'>
@@ -60,11 +54,12 @@ const Soluctions = () => {
           <div className='soluctions-tree-left'>
             <div className='soluctions-tree-leaf'>
               <button onClick={handleClickLegal} className='tree-button'>
-                {isVisibleLegal ? 'Compliance Legal ⬆' : 'Compliance Legal ⬇'}
+                {isVisibleLegal ? 'Compliance Legal ⬇' : 'Compliance Legal ⬇'}
               </button>
               <motion.div
                 initial={{ y: 100, x: -60, opacity: 0 }}
-                animate={isVisibleLegal ? { y: 0, x: -60, opacity: 1 } : { y: 100, x: -60, opacity: 0 }}
+                whileInView={{ y: 0, x: -60, opacity: 1 }}
+                viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1 }}
                 className='tree-text'
               >
@@ -76,11 +71,12 @@ const Soluctions = () => {
             </div>
             <div className='soluctions-tree-leaf'>
               <button onClick={handleClickNegociacao} className='tree-button'>
-                {isVisibleNegociacao ? 'Negociação e Estratégia ⬆' : 'Negociação e Estratégia ⬇'}
+                {isVisibleNegociacao ? 'Negociação e Estratégia ⬇' : 'Negociação e Estratégia ⬇'}
               </button>
               <motion.div
                 initial={{ y: 100, x: -60, opacity: 0 }}
-                animate={isVisibleNegociacao ? { y: 0, x: -60, opacity: 1 } : { y: 100, x: -60, opacity: 0 }}
+                whileInView={{ y: 0, x: -60, opacity: 1 }}
+                viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1 }}
                 className='tree-text'
               >
@@ -93,18 +89,18 @@ const Soluctions = () => {
             </div>
             <div className='soluctions-tree-leaf'>
               <button onClick={handleClickTransparencia} className='tree-button'>
-                {isVisibleTransparencia ? 'Transparencia ⬆' : 'Transparencia ⬇'}
-
+                {isVisibleTransparencia ? 'Transparencia ⬇' : 'Transparencia ⬇'}
               </button>
               <motion.div
                 initial={{ y: 100, x: -60, opacity: 0 }}
-                animate={isVisibleTransparencia ? { y: 0, x: -60, opacity: 1 } : { y: 100, x: -60, opacity: 0 }}
+                whileInView={{ y: 0, x: -60, opacity: 1 }}
+                viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1 }}
                 className='tree-text'
               >
                 <p>
-                Ação de forma aberta e acessível, oferecendo clareza e visibilidade sobre decisões, processos e 
-                informações. Em contextos governamentais e empresariais, essa prática promove confiança e responsabilidade.
+                  Ação de forma aberta e acessível, oferecendo clareza e visibilidade sobre decisões, processos e
+                  informações. Em contextos governamentais e empresariais, essa prática promove confiança e responsabilidade.
                 </p>
               </motion.div>
             </div>
@@ -113,12 +109,12 @@ const Soluctions = () => {
           <div className='soluctions-tree-right'>
             <div className='soluctions-tree-leaf'>
               <button onClick={handleClickAnaliseViabilidade} className='tree-button'>
-                {isVisibleAnaliseViabilidade ? 'Análise de Viabilidade ⬆' : 'Análise de Viabilidade ⬇'}
-                
+                {isVisibleAnaliseViabilidade ? 'Análise de Viabilidade ⬇' : 'Análise de Viabilidade ⬇'}
               </button>
               <motion.div
                 initial={{ y: 100, x: -60, opacity: 0 }}
-                animate={isVisibleAnaliseViabilidade ? { y: 0, x: -60, opacity: 1 } : { y: 100, x: -60, opacity: 0 }}
+                whileInView={{ y: 0, x: -60, opacity: 1 }}
+                viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1 }}
                 className='tree-text'
               >
@@ -130,20 +126,20 @@ const Soluctions = () => {
             </div>
             <div className='soluctions-tree-leaf'>
               <button onClick={handleClickTreinamento} className='tree-button'>
-              {isVisibleTreinamento ? 'Treinamento ⬆' : 'Treinamento ⬇'}
-                
+                {isVisibleTreinamento ? 'Treinamento ⬇' : 'Treinamento ⬇'}
               </button>
               <motion.div
                 initial={{ y: 100, x: -60, opacity: 0 }}
-                animate={isVisibleTreinamento ? { y: 0, x: -60, opacity: 1 } : { y: 100, x: -60, opacity: 0 }}
+                whileInView={{ y: 0, x: -60, opacity: 1 }}
+                viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1 }}
                 className='tree-text'
               >
-              <p>
-                São programas de capacitação destinados a ensinar técnicas e procedimentos para participar de processos
-                de licitação, visando a preparação de propostas competitivas e a compreensão das normas e
-                regulamentos envolvidos.
-              </p>
+                <p>
+                  São programas de capacitação destinados a ensinar técnicas e procedimentos para participar de processos
+                  de licitação, visando a preparação de propostas competitivas e a compreensão das normas e
+                  regulamentos envolvidos.
+                </p>
               </motion.div>
             </div>
           </div>

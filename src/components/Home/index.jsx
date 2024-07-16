@@ -14,7 +14,7 @@ let Home = () => {
    }, []);
 
  return (
-    <section className='home'>
+    <section className='home' id='home'>
       <Header  />
       <div className='home-itens'>
          <motion.div
