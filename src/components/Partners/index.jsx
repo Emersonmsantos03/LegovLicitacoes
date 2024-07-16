@@ -25,7 +25,7 @@ let Partners = () =>{
 
         <section className='partners'>
             <div className='partners-container'>
-                <div className='partners-container-title'><h1>Empresas que acreditam em <strong>Nosso Potencial</strong></h1></div>
+                <div className='partners-container-title'><h1>Empresas que acreditam em <strong>nosso potencial</strong></h1></div>
 
                     <div className='icon-container'>
                         {company.map(({image}, index) => (

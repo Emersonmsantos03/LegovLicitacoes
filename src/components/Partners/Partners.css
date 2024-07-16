@@ -100,7 +100,8 @@ transition: 0.5s ease;
       height: auto;
       background-image: url(../../../public/images/Desktop\ -\ Clientes.png);
       background-color: black;
-      background-position: -30rem;
+      background-repeat: no-repeat;
+      background-size: cover;
     
     }
   
