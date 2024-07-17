@@ -21,7 +21,7 @@
     font-family: var(--fonte-inter);
     font-weight: 700;
     color: var(--branco-escuro);
-    width: 40%;
+    width: 50%;
     text-align: center;
     margin-bottom: 6rem;
     margin-top: 5rem;
@@ -52,12 +52,12 @@
 }
 
 .company-icon img{
-    width: 250px;
+    width: 240px;
     transition: 0.5s ease;
 }
 
 .company-icon img:hover{
-    width: 270px;
+    width: 250px;
     height: auto;
     transition: 0.5s ease;
     
@@ -83,7 +83,7 @@ border-radius: 10px;
 width: 450px;
 height: 60px;
 transition: 0.5s ease;
-margin-bottom: 3rem;
+margin-bottom: 2rem;
 
 
 }
@@ -180,4 +180,126 @@ transition: 0.5s ease;
       transition: 0.5s ease;
       margin-bottom: 2rem;
     }
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .partners {
+      min-height: 70vh; /* Ajusta a altura mínima */
+      background-image: url(../../../public/images/Desktop\ -\ Clientes.png);
+      background-color: black;
+  }
+
+  .partners-container {
+      min-height: auto; /* Ajusta a altura mínima */ /* Adiciona padding para espaçamento */
+  }
+
+  .partners-container-title {
+      font-size: 36px; /* Ajusta o tamanho da fonte */
+      width: 80%; /* Ajusta a largura */
+      margin-bottom: 4rem; /* Ajusta a margem inferior */
+      margin-top: 3rem; /* Ajusta a margem superior */
+  }
+
+  .icon-container {
+      width: 100%; /* Ajusta a largura */
+      height: auto; /* Ajusta a altura */
+      gap: 0.4rem; /* Adiciona espaçamento entre ícones */
+  }
+
+  .company-icon {
+      width: 200px; /* Ajusta a largura */
+      height: auto; /* Ajusta a altura */
+      margin-bottom: 1rem; /* Adiciona margem inferior */
+  }
+
+  .company-icon img {
+      width: 180px; /* Ajusta a largura da imagem */
+  }
+
+  .company-icon img:hover {
+      width: 200px; /* Ajusta a largura da imagem ao passar o mouse */
+      height: auto;
+  }
+
+  .partners-button {
+      height: auto;
+      margin-top: 2rem; /* Ajusta a altura */
+  }
+
+  .partners-button button {
+      font-size: 24px; /* Ajusta o tamanho da fonte */
+      width: 100%; /* Ajusta a largura */
+      height: 50px; /* Ajusta a altura */
+      margin-bottom: 0rem;
+      background-color: var(--dourado); /* Ajusta a margem inferior */
+  }
+
+  }
+
+  @media (min-width: 1024px) and (max-width: 1440px) {
+
+    .partners {
+      min-height: 80vh; /* Ajusta a altura mínima */
+      background-image: url(../../../public/images/Desktop\ -\ Clientes.png);
+      background-color: black;
+  }
+
+  .partners-container {
+      min-height: auto; /* Ajusta a altura mínima */ /* Adiciona padding para espaçamento */
+  }
+
+  .partners-container-title {
+      font-size: 36px; /* Ajusta o tamanho da fonte */
+      width: 80%; /* Ajusta a largura */
+      margin-bottom: 4rem; /* Ajusta a margem inferior */
+      margin-top: 3rem; /* Ajusta a margem superior */
+  }
+
+  .icon-container{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    height: 45vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.company-icon{
+    width: 220px;
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-icon img{
+    width: 210px;
+    transition: 0.5s ease;
+}
+
+.company-icon img:hover{
+    width: 250px;
+    height: auto;
+    transition: 0.5s ease;
+    
+}
+
+  .partners-button {
+      height: auto;
+      margin-top: 2rem; /* Ajusta a altura */
+  }
+  
+
+  .partners-button button {
+      font-size: 24px; /* Ajusta o tamanho da fonte */
+      width: 25%; /* Ajusta a largura */
+      height: 50px; /* Ajusta a altura */
+      margin-bottom: 0rem;
+      background-color: var(--dourado); /* Ajusta a margem inferior */
+  }
+
+  
   }

@@ -258,6 +258,10 @@ transition: 0.5s ease;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
+    .subtitle button a{
+      width: 10rem;
+      height: 100%;
+    }
   
     .subtitle button:hover {
       background-color: var(--laranja);
@@ -321,5 +325,283 @@ transition: 0.5s ease;
       margin: 0.5rem 0;
     }
   }
-  
 
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .cont {
+        max-height: auto;
+        background-image: url(../../../public/images/contact-image.png);
+        background-color: black;
+        
+    }
+
+    .cont-container {
+        max-height: auto;
+    }
+
+    .cont-container-title {
+        height: 50vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 50px;
+        width:50%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .title h1 {
+        text-align: center;
+        margin-bottom: 6rem;
+        width: 100%;
+    }
+
+    .subtitle {
+        font-size: 22px;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .subtitle h5 {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .subtitle button {
+        width: 200px;
+        height: 40px;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .conts {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-top: 5rem;
+        
+    }
+
+    .conts-contacts, .cont-nav{
+        width: 20%;
+        margin: 0;
+    }
+
+    .admin {
+      width: 55%;
+    }
+
+    .conts-contacts{
+      gap: 1rem;
+    
+  }
+
+    .admin-container {
+        flex-direction: row;
+        gap: 4rem;
+    }
+
+    .admin-container-user {
+        gap: 1rem;
+    }
+
+    .conts h3 {
+        font-size: 26px;
+        margin-bottom: 2rem;
+    }
+
+    .conts h4 {
+        font-size: 22px;
+    }
+
+    .conts p, .conts a {
+        font-size: 15px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .cont{
+    width: 100%;
+    max-height: 90vh;
+    background-image: url(../../../public/images/contact-image.png);
+    background-color: black;
+}
+
+.cont-container{
+    width: 100%;
+    max-height: 90vh;
+}
+
+.cont-container-title{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.title, .subtitle{
+    
+    height: 100%;
+    color: var(--branco-escuro);
+
+}
+
+.title{
+    font-family: var(--fonte-montserrat);
+    font-size: 70px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 60%;
+    text-align: left;
+
+
+
+}
+.subtitle{
+  width:40%;
+}
+
+
+.title h1{
+    width: 100%;
+    text-align: left;
+}
+
+.title strong{
+    color: var(--dourado);
+}
+
+.subtitle{
+    display: flex;
+    font-size: 25px;
+    font-family: var(--fonte-inter);
+    text-align: left;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+    
+
+}
+
+
+.subtitle h5{
+    width: 60%;
+    margin: 19rem 0 0 5rem;
+    
+}
+
+.subtitle button{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid var(--dourado);
+    font-family: var(--fonte-mukta);
+    font-size: 20px;
+    color: var(--branco-escuro);
+    font-weight: 500;
+    transition: 0.5s ease;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.subtitle button:hover{
+background-color: var(--dourado);
+transition: 0.5s ease;
+
+}
+
+.conts{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 28vh;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--branco-escuro);
+    font-family: var(--fonte-inter);
+    margin-top: 15rem;
+
+}
+
+.conts strong{
+    color: var(--dourado);
+}
+
+.conts-contacts{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+
+}
+.admin{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.admin-container{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    
+}
+
+.cont-nav{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-container-user{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.conts h3{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.conts h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.conts p, .conts a{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 1rem 0 0 0;
+}
+
+
+}

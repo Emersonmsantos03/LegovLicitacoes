@@ -1,5 +1,5 @@
 .soluctions{
-    height: 90vh;
+    min-height: 90vh;
     width: 100%;
     background-color: #1E1E1E;
     ;
@@ -14,11 +14,12 @@
 }
 
 .soluctions-objectives{
-    width: 40%;
-    height: 90vh;
+    max-width: 40%;
+    min-height: 90vh;
     background-color: var(--cinza-escuro);
     gap: 3rem;
     border-radius: 20px;
+
     
 }
 
@@ -49,8 +50,8 @@ margin-top: 3rem;
 
 .soluctions-tree{
     display: flex;
-    width: 60%;
-    height: 90vh;
+    min-width: 60%;
+    min-height: 90vh;
     justify-content: center;
     align-items: center;
     
@@ -70,8 +71,12 @@ margin-top: 3rem;
     width: 35%;
     height: 50%;
     flex-direction: column;
-    gap: 5rem;
+    gap: 2.5rem;
 }
+.soluctions-tree-left{
+  margin-right: 1rem;
+}
+
 
 .soluctions-tree-leaf{
     display: flex;
@@ -91,7 +96,7 @@ margin-top: 3rem;
     height: 3.3rem;
     background-color: var(--dourado);
     font-family: var(--fonte-inter);
-    font-size: 22px;
+    font-size: 1.3rem;
     color: var(--branco-escuro);
     font-weight: 600;
     transition: 0.5s ease;
@@ -123,6 +128,7 @@ width: 19px;
 font-weight: 500;
 color: var(--branco-escuro);
 width: 190%;
+font-size: 1.1rem;
 
 
 
@@ -146,6 +152,7 @@ width: 190%;
       align-items: center;
       justify-content: center;
       border: none;
+      width: 100%;
       
     }
   
@@ -156,18 +163,22 @@ width: 190%;
       align-items: center;
       justify-content: center;
       border: none;
+      background-color: #1E1E1E;
+      width: 100%;
+      
     }
   
     .soluctions-objectives {
       width: 100%;
-      min-height: 90vh;
-      max-height: 100vh;
+      height: 120vh;
       gap: 2rem;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      border-radius: 0;
+      border-radius: 10px;
+      background-color: transparent;
+    
     }
   
     .objectives-title {
@@ -183,8 +194,13 @@ width: 190%;
       height: auto;
       gap: 2rem;
       flex-direction: column;
+      width: 100%;
       
     }
+
+  .cards-container{
+    width: 100%;
+  }
   
     .soluctions-tree {
       width: 100%;
@@ -211,6 +227,8 @@ width: 190%;
       align-items: center;
       display: flex;
     }
+
+    
   
     .soluctions-tree-leaf {
       width: 100%;
@@ -276,6 +294,226 @@ width: 190%;
         
     }
 
+
+
    
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .soluctions {
+      height: auto;
+      margin: 1rem 0; /* Ajusta a altura do container de soluções */
+  }
+
+  .soluctions-container {
+      flex-direction: column; /* Ajusta a direção flex para coluna */
+      height: auto; /* Ajusta a altura do container */
+  }
+
+  .soluctions-objectives {
+      width: 100%; /* Ajusta a largura do container de objetivos */
+      height: 90vh; /* Ajusta a altura do container */
+      border-radius: 0; /* Remove o border-radius */
+      padding: 0; /* Adiciona padding */
+      gap: 2rem; /* Ajusta o espaçamento */
+  }
+
+  .objectives-title {
+      font-size: 32px; /* Ajusta o tamanho da fonte do título */
+      margin-top: 2rem; /* Ajusta a margem superior */
+  }
+
+  .objectives-cards {
+      flex-direction: column; /* Ajusta a direção flex para coluna */
+      gap: 2rem; /* Ajusta o espaçamento */
+      height: auto; /* Ajusta a altura */
+  }
+
+  .soluctions-tree {
+      width: 100%; /* Ajusta a largura do container da árvore */
+      height:120vh; /* Ajusta a altura */
+      flex-direction: column; /* Ajusta a direção flex para coluna */
+  }
+
+  .soluctions-tree-line {
+      height: 2px; /* Ajusta a altura da linha */
+      width: 70vw; /* Ajusta a largura da linha */
+      margin: 2rem 0; /* Ajusta a margem */
+  }
+
+  .soluctions-tree-left, .soluctions-tree-right {
+      width: 100%; /* Ajusta a largura dos containers */
+      height: auto; /* Ajusta a altura */
+      gap: 3rem; /* Ajusta o espaçamento */
+  }
+
+  .soluctions-tree-leaf {
+      width: 100%; /* Ajusta a largura das folhas */
+      height: auto; /* Ajusta a altura */
+  }
+
+  .soluctions-tree-leaf button {
+      width: 40%; /* Ajusta a largura do botão */
+      font-size: 18px; /* Ajusta o tamanho da fonte do botão */
+  }
+
+  .soluctions-tree-leaf p {
+      width: 40%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 36%;
+  }
+
+  .tree-text{
+    width: 100%;
+  }
+
+
+  }
+
+  @media (min-width: 1024px) and (max-width: 1440px) {
+
+    .soluctions{
+      min-height: 90vh;
+      width: 100%;
+      background-color: #1E1E1E;
+      
+  }
+  
+  .soluctions-container{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+  
+  }
+  
+  .soluctions-objectives{
+      width: 45%;
+      min-height: 90vh;
+      background-color: var(--cinza-escuro);
+      gap: 3rem;
+      border-radius: 20px;
+  
+      
+  }
+  
+  .objectives-title{
+  font-family: var(--fonte-inter);
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--branco-escuro);
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-top: 3rem;
+  
+  
+  }
+  .objectives-cards{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 73vh;
+      gap: 4rem;
+  
+  }
+  
+  .soluctions-tree{
+      display: flex;
+      width: 100%;
+      min-height: 90vh;
+      justify-content: center;
+      align-items: center;
+      
+      
+  }
+  
+  .soluctions-tree-line{
+      background-color: var(--dourado);
+      width: 2px;
+      height: 70vh;
+      border-radius: 30px;
+  }
+  
+  .soluctions-tree-left, .soluctions-tree-right{
+      display: flex;
+      align-items: center;
+      width: 35%;
+      height: 50%;
+      flex-direction: column;
+      gap: 2.5rem;
+  }
+  
+  .soluctions-tree-leaf{
+      display: flex;
+      align-items: center;
+      width: 45%;
+      height: 60%;
+      flex-direction: column;
+      gap: 1.5rem;
+      
+  
+  }
+  
+  .soluctions-tree-leaf button{
+      border-radius: 10px;
+      border: var(--branco-escuro) solid 2px;
+      width: 20rem;
+      height: 3.3rem;
+      background-color: var(--dourado);
+      font-family: var(--fonte-inter);
+      font-size: 1.3rem;
+      color: var(--branco-escuro);
+      font-weight: 600;
+      transition: 0.5s ease;
+      display: flex;
+      flex-direction: center;
+      align-items: center;
+      justify-content: center;
+      gap: 0.2rem;
+      border: none;
+      
+      
+  }
+  
+  .soluctions-tree-leaf button:hover{
+      transition: 0.5s ease;
+      background-color: var(--cinza-escuro);
+      border: none;
+  }
+  
+  .soluctions-tree-leaf img{
+      height: 2rem;
+      width: auto;
+  }
+  
+  
+  .soluctions-tree-leaf p{
+  font-family: var(--fonte-montserrat);
+  width: 19px;
+  font-weight: 500;
+  color: var(--branco-escuro);
+  width: 190%;
+  font-size: 1.1rem;
+  
+  
+  
+  }
+  
+  
+  .soluctions-tree-left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+  }
+  
   }
   

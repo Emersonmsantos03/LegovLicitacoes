@@ -18,7 +18,7 @@ let About = () => {
                     <div className='about-container-infos-image'><img src={about} alt='about-image'/></div>
                 </div>
                 <div className='about-container-button'>
-                <p><button><a>Saiba mais!</a></button></p>
+                <p><button><a href="https://wa.me/5541995043150?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20como%20aumentar%20as%20minhas%20chances%20no%20processo%20de%20licita%C3%A7%C3%A3o%21">Saiba mais!</a></button></p>
                 </div>
             </div>
         

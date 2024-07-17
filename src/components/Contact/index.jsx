@@ -36,7 +36,7 @@ let Contact = () =>{
                         viewport={{ once: true, amount: 1 }}
                         transition={{ duration: 3 }}
           > 
-                        <button>Saiba mais!</button>
+                        <button><a a href="https://wa.me/5541995043150?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20como%20aumentar%20as%20minhas%20chances%20no%20processo%20de%20licita%C3%A7%C3%A3o%21">Saiba mais!</a></button>
                         </motion.div>
 
                         </div>
@@ -45,7 +45,7 @@ let Contact = () =>{
                    <div className='conts'>
                   
                     <div className='conts-contacts'>
-                        <h3>Nossos contatos:</h3>
+                        <h3>Contatos:</h3>
                         <p>@legov.licita</p>
                         <p>41 99145-3085</p>
                         <p>legov.licita@gmail.com </p>
