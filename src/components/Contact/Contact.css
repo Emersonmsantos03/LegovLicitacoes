@@ -87,6 +87,10 @@
     margin-left: 5rem;
     margin-top: 1rem;
 }
+.subtitle button a{
+    height: 200px;
+    width: 40px;
+}
 
 .subtitle button:hover{
 background-color: var(--dourado);

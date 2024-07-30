@@ -86,7 +86,7 @@
     width: 22rem;
     height: 50px;
     border: solid 2.5px var(--dourado);
-    background-color: transparent;
+    background-color: var(--dourado);
     color: var(--dourado);
     transition: 0.7s ease;
 
@@ -103,7 +103,7 @@
 }
 
 .home-itens-button button:hover{
-    background-color: var(--dourado);
+
     transition: 0.7s ease;
     margin-bottom: 1rem;
 
@@ -132,28 +132,42 @@
         align-items: center;
         flex-direction: column;
         margin-top: 12rem;
+        text-align: center;
         
         
     }
     
     .home-itens-title {
         text-align: center;
-        width: 100%;
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .home-itens-title-text {
         font-family: var(--fonte-inter);
         color: var(--branco-escuro);
-        font-size: 48px;
+        
         font-weight: 700;
         text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .home-itens-title-text h1{
         text-align: center;
+        display: flex;
+        align-items: center;
+        
     }
     
     .home-itens-title-text strong {
         color: var(--dourado);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .home-itens-subtitle {
@@ -245,7 +259,8 @@
             display: flex;
             width: 95%;
             flex-direction: column;
-            text-align: left;
+            text-align: center;
+            
             
         }
     

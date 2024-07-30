@@ -1,11 +1,11 @@
 .about{
     display: flex;
     flex-direction: column;
-    background-color: #1E1E1E;
+    background-color: #0f0f0f;
     height: 95vh;
     width: 100%;
     align-items: start;
-    justify-content: end;
+    justify-content: center;
     
     
 }
@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: end;
     align-items: end;
-    margin-bottom: 3rem;
+    margin-bottom: 0;
     gap: 1rem;
     
 }
@@ -118,7 +118,7 @@
     margin-left: 8rem;
 }
 .about-container-button button:hover{
-    margin-top: 0.5rem;
+    width: 280px;
 
 
 }

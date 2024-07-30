@@ -1,8 +1,7 @@
 .soluctions{
     min-height: 90vh;
     width: 100%;
-    background-color: #1E1E1E;
-    ;
+    background-color: #0f0f0f;
 }
 
 .soluctions-container{
@@ -16,9 +15,10 @@
 .soluctions-objectives{
     max-width: 40%;
     min-height: 90vh;
-    background-color: var(--cinza-escuro);
+    background-color: transparent;
     gap: 3rem;
     border-radius: 20px;
+    margin-left: 5rem;
 
     
 }
@@ -178,6 +178,7 @@ font-size: 1.1rem;
       flex-direction: column;
       border-radius: 10px;
       background-color: transparent;
+      margin-left: 0;
     
     }
   
@@ -195,6 +196,7 @@ font-size: 1.1rem;
       gap: 2rem;
       flex-direction: column;
       width: 100%;
+      
       
     }
 
@@ -226,6 +228,8 @@ font-size: 1.1rem;
       justify-content: center;
       align-items: center;
       display: flex;
+      margin: 0;
+      padding: 0;
     }
 
     
