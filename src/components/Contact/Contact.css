@@ -51,7 +51,7 @@ strong{
     margin-bottom: 6rem;
 }
 .subtitle {
-    font-size: 20px;
+    font-size: 22px;
     font-family: var(--fonte-inter);
     text-align: center;
     flex-direction: column;
@@ -62,11 +62,12 @@ strong{
     height: 100%;
     color: var(--branco-escuro);
     width: 50%;
+    margin-top: 2rem;
 }
 
 .subtitle h5 {
     margin: 0;
-    width: 45%;
+    width: 50%;
 }
 
 .subtitle button {
