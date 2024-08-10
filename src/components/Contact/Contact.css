@@ -181,7 +181,7 @@ transition: 0.5s ease;
 
 @media (max-width: 768px) {
     .cont {
-      min-height: auto;
+      min-height: 90vh;
       background-image: none; /* Removendo imagem de fundo em telas menores */
       background-color: var(--preto); 
       width: 100%;
@@ -189,16 +189,17 @@ transition: 0.5s ease;
       flex-direction: column;
       border: none;
       
+      
     }
   
     .cont-container {
-        min-height: auto;
+        min-height: 90vh;
       width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 0;
+      margin: 3rem 0;
       padding: 0;
       border: none;
       background-color: var(--preto) ;
