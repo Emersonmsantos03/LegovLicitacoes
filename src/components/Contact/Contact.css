@@ -181,17 +181,18 @@ transition: 0.5s ease;
 
 @media (max-width: 768px) {
     .cont {
-      height: 100vh;
+      min-height: auto;
       background-image: none; /* Removendo imagem de fundo em telas menores */
       background-color: var(--preto); 
       width: 100%;
       display: flex;
       flex-direction: column;
       border: none;
+      
     }
   
     .cont-container {
-      height: 100vh;
+        min-height: auto;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -200,6 +201,7 @@ transition: 0.5s ease;
       margin: 0;
       padding: 0;
       border: none;
+      background-color: var(--preto) ;
     }
   
     .cont-container-title {
@@ -260,7 +262,7 @@ transition: 0.5s ease;
       font-size: 18px;
       font-weight: 500;
       cursor: pointer;
-      transition: background-color 0.3s ease;
+      
     }
     .subtitle button a{
       width: 10rem;
@@ -310,7 +312,8 @@ transition: 0.5s ease;
     .cont-nav {
       width: 100%;
       text-align: center;
-      margin-top: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
     }
   
     .conts h3 {
@@ -334,7 +337,7 @@ transition: 0.5s ease;
 
   @media (min-width: 768px) and (max-width: 1024px) {
     .cont {
-        max-height: auto;
+        min-height: auto;
         background-image: url(../../../public/images/contact-image.png);
         background-color: black;
         
