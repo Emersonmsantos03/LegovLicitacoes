@@ -230,7 +230,7 @@ transition: 0.5s ease;
 
   .partners-button button {
       font-size: 24px; /* Ajusta o tamanho da fonte */
-      width: 100%; /* Ajusta a largura */
+      width: 40%; /* Ajusta a largura */
       height: 50px; /* Ajusta a altura */
       margin-bottom: 0rem;
       background-color: var(--dourado); /* Ajusta a margem inferior */

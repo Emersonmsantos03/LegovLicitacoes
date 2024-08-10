@@ -130,6 +130,7 @@
         font-family: var(--fonte-montserrat);
         color: var(--branco-escuro);
         transition: 0.5s ease;
+        font-size: 15px;
     }
 
    
@@ -163,10 +164,16 @@
     
     .header-button {
         border-radius: 20px;
-        width: 50%;
-        height: 40%;
+        width: 40%;
+        height: 30%;
         border: transparent;
+        background-color: var(--dourado);
+        
     
+}
+.header-button a{
+    font-size: 15px;
+
 }
 
 

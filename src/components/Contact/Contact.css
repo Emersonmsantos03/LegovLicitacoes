@@ -1,79 +1,75 @@
-.cont{
+.cont {
     width: 100%;
     max-height: 90vh;
     background-image: url(../../../public/images/contact-image.png);
     background-color: black;
 }
 
-.cont-container{
+strong{
+    color: var(--dourado);
+}
+
+.cont-container {
     width: 100%;
     max-height: 90vh;
 }
 
-.cont-container-title{
+.mocao3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cont-container-title {
     width: 100%;
     height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    padding: 2rem 0;
 }
 
-.title, .subtitle{
-    
-    height: 100%;
-    color: var(--branco-escuro);
 
-}
 
-.title{
+.title {
     font-family: var(--fonte-montserrat);
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    width: 70%;
+    align-items: center;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: end;
-    width: 60%;
-    text-align: left;
-
-
-
+    align-items: center;
+    color: var(--branco-escuro);
 }
-.subtitle{
-  width:40%;
-}
-
-
 .title h1{
     width: 100%;
-    text-align: left;
+    margin-bottom: 6rem;
 }
-
-.title strong{
-    color: var(--dourado);
-}
-
-.subtitle{
-    display: flex;
-    font-size: 25px;
+.subtitle {
+    font-size: 20px;
     font-family: var(--fonte-inter);
-    text-align: left;
-    justify-content: center;
-    align-items: start;
+    text-align: center;
     flex-direction: column;
     gap: 1rem;
-    
-
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    color: var(--branco-escuro);
+    width: 50%;
 }
 
-
-.subtitle h5{
-    width: 60%;
-    margin: 19rem 0 0 5rem;
-    
+.subtitle h5 {
+    margin: 0;
+    width: 45%;
 }
 
-.subtitle button{
+.subtitle button {
     width: 200px;
     height: 40px;
     border-radius: 30px;
@@ -84,13 +80,27 @@
     color: var(--branco-escuro);
     font-weight: 500;
     transition: 0.5s ease;
-    margin-left: 5rem;
     margin-top: 1rem;
 }
-.subtitle button a{
-    height: 200px;
-    width: 40px;
+
+.subtitle button:hover {
+    background-color: var(--dourado);
+    transition: 0.5s ease;
 }
+
+  .subtitle button:hover {
+    background-color: var(--dourado);
+    transition: 0.5s ease;
+  }
+  
+  .subtitle button a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+  }
+  
 
 .subtitle button:hover{
 background-color: var(--dourado);
@@ -341,53 +351,62 @@ transition: 0.5s ease;
         min-height: auto;
         background-image: url(../../../public/images/contact-image.png);
         background-color: black;
-        
     }
-
+    
     .cont-container {
         max-height: auto;
     }
-
+    
     .cont-container-title {
-        height: 50vh;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        height: auto;
+        display: flex;
+        flex-direction: row; /* Título e subtítulo em linha */
+        align-items: flex-start; /* Alinha no topo */
+        justify-content: center;/* Espaço entre título e subtítulo */
+        width:90%;
+        padding: 2rem; /* Adiciona algum espaço interno */
+        box-sizing: border-box;
+        
     }
-
+    
     .title {
-        font-size: 50px;
-        width:50%;
-        text-align: center;
+        font-size: 40px;
+        width: 60%; /* Ajusta para não ocupar toda a largura */
+        text-align: left;
         margin: 0;
+        display: flex;
+        align-items: flex-start; /* Alinha o texto ao topo */
     }
-
+    
     .title h1 {
-        text-align: center;
-        margin-bottom: 6rem;
-        width: 100%;
+        margin-top: 4rem;
     }
-
+    
     .subtitle {
         font-size: 22px;
-        width: 50%;
-        text-align: center;
-        align-items: center;
-        gap: 1rem;
+        width: 40%; /* Ajusta a largura para não ficar muito largo */
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centraliza verticalmente o conteúdo */
     }
-
+    
     .subtitle h5 {
         width: 100%;
-        margin: 1rem 0;
+        margin-top: 10rem; /* Remove margens extras e ajusta o espaço */
     }
-
+    
     .subtitle button {
         width: 200px;
         height: 40px;
-        margin-left: 0;
         margin-top: 1rem;
+        align-self: flex-start; /* Alinha o botão à esquerda */
     }
+
+
+
+
+
 
     .conts {
         flex-direction: row;
@@ -432,6 +451,12 @@ transition: 0.5s ease;
     .conts p, .conts a {
         font-size: 15px;
         margin: 0;
+    }
+
+    .cont-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
 }
 

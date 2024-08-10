@@ -13,7 +13,8 @@ let Contact = () =>{
             initial={{ y: 200, x: 200, opacity: 0 }}
             whileInView={{ y: 100, x: 200, opacity: 1 }}
             viewport={{ once: true, amount: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 1 }} 
+            className='mocao'
           > 
                     <div className='title'><h1>Seja um de nossos <strong>clientes</strong></h1></div>
                     </motion.div>
@@ -26,7 +27,9 @@ let Contact = () =>{
                     initial={{ y: 0, x: -50, opacity: 0 }}
                     whileInView={{ y: 0, x: 0, opacity: 1 }}
                     viewport={{ once: true, amount: 1 }}
-                    transition={{ duration: 1 }}>
+                    transition={{ duration: 1 }}
+                    className='mocao3'>
+                        
                         <h5>Descubra como nossos especialistas 
                         podem aumentar suas chances de sucesso em licitações e conquistar novos contratos.</h5>
                         </motion.div>
@@ -35,6 +38,7 @@ let Contact = () =>{
                         whileInView={{opacity: 1 }}
                         viewport={{ once: true, amount: 1 }}
                         transition={{ duration: 3 }}
+                        className='mocao2'
           > 
                         <button><a a href="https://wa.me/5541995043150?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20como%20aumentar%20as%20minhas%20chances%20no%20processo%20de%20licita%C3%A7%C3%A3o%21" target="_blank">Saiba mais!</a></button>
                         </motion.div>

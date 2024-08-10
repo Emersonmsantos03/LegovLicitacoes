@@ -312,15 +312,20 @@ font-size: 1.1rem;
 
   .soluctions-container {
       flex-direction: column; /* Ajusta a direção flex para coluna */
-      height: auto; /* Ajusta a altura do container */
+      height: auto; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
   }
 
   .soluctions-objectives {
       width: 100%; /* Ajusta a largura do container de objetivos */
-      height: 90vh; /* Ajusta a altura do container */
+      height: 85vh; /* Ajusta a altura do container */
       border-radius: 0; /* Remove o border-radius */
       padding: 0; /* Adiciona padding */
       gap: 2rem; /* Ajusta o espaçamento */
+      margin: 0;
   }
 
   .objectives-title {
@@ -338,6 +343,7 @@ font-size: 1.1rem;
       width: 100%; /* Ajusta a largura do container da árvore */
       height:120vh; /* Ajusta a altura */
       flex-direction: column; /* Ajusta a direção flex para coluna */
+      margin: 0;
   }
 
   .soluctions-tree-line {
@@ -350,11 +356,13 @@ font-size: 1.1rem;
       width: 100%; /* Ajusta a largura dos containers */
       height: auto; /* Ajusta a altura */
       gap: 3rem; /* Ajusta o espaçamento */
+      margin: 0;
   }
 
   .soluctions-tree-leaf {
       width: 100%; /* Ajusta a largura das folhas */
       height: auto; /* Ajusta a altura */
+      margin: 0;
   }
 
   .soluctions-tree-leaf button {
@@ -368,6 +376,9 @@ font-size: 1.1rem;
       justify-content: center;
       align-items: center;
       margin-left: 36%;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 200;
   }
 
   .tree-text{
